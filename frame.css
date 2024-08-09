@@ -1,0 +1,12 @@
+.frame
+{
+    margin: 8rem auto 0 auto;
+    /* background-color: blue; */
+    height: 100vh;
+}
+iframe
+{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+}

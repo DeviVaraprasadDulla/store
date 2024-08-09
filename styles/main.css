@@ -1,0 +1,15 @@
+.main
+{
+    margin: 0 auto ;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 0.8rem;
+    /* background-color: red; */
+    max-width: 1400px;
+   
+}
+footer
+{
+    background-color: black;
+    color: white;
+}

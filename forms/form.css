@@ -1,0 +1,105 @@
+:root{
+    --primaryColor :rgb(17, 11, 74); 
+    --redColor :red;
+    --border:1px solid rgb(195, 194, 194);
+    --shadow:0px 0px 22px rgba(0, 0, 0, 0.5);
+}
+.main-container
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main
+{
+    width: 25rem;
+    height: 30rem;
+    padding: 1rem;
+    box-shadow: var(--shadow);
+}
+.title
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+}
+.main-title
+{
+    font-weight: bold;
+    color: var(--primaryColor);
+    font-size: 22px;
+}
+
+.sub-title
+{
+    font-size: 0.9rem;
+}
+
+.input-items
+{
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.input-box
+{
+    display: block;
+    width: 100%;
+    height: 2rem;
+    border: var(--border);
+    outline: none;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.label
+{
+    font-size: 0.9rem;
+    color: var(--primaryColor);
+    font-weight: 600;
+}
+
+
+
+
+.form-footer
+{
+    display: flex;
+    justify-content: space-between;
+}
+.login
+{
+    color: red;
+    text-decoration: none;
+}
+
+/* button */
+.btn
+{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+}
+
+/* login form style */
+.reminder
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+
+.forget-Password
+{
+    color: red;
+    cursor: pointer;
+
+}
